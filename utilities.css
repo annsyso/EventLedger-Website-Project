@@ -1,0 +1,99 @@
+/* Text colors */
+
+.text-primary {
+    color: #ff5965;
+}
+
+.text-secondary {
+    color:#35a7ff;
+}
+
+/* button */
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-primary {
+    background-color: #ff5965;
+    border: 2px solid #ff5965;
+}
+
+.btn-secondary {
+    background-color: #35a7ff;
+    border: 2px solid #35a7ff;
+}
+
+.btn-dark {
+    background-color: #333;
+    border: 2px solid #333;
+}
+
+.btn-light {
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn-outline {
+    border: 2px solid #fff;
+}
+
+/* flex items */
+
+.flex-items {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.flex-items > div {
+    padding: 30px;
+}
+
+/* flex columns */
+
+.flex-columns .row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.flex-columns .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+    height: 100%;
+}
+
+/* background classes */
+
+.bg-primary {
+    background-color: #ff5965;
+    color: #fff;
+}
+
+.bg-secondary {
+    background-color: #35a7ff;
+}
+
+.flex-columns img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
